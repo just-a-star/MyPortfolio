@@ -1,0 +1,25 @@
+{
+  "short_name": "My Portfolio",
+  "name": "Bintang Rahmatullah's Portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "icon/ico",
+      "sizes": "32x32"
+    },
+    {
+      "src": "logo-1.webp",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    },
+    {
+      "src": "logo-icon.webp",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
