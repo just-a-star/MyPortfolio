@@ -41,7 +41,7 @@ const Work = () => {
         My Works <span>and Portfolio</span>
       </h2>
       <div className="app__work-filter">
-        {["Web Development", "Mobile Development", "Game Development", "Laravel", "Etc", "All"].map((item, index) => (
+        {["Web Development", "Mobile Development", "Game Development", "Laravel", "NextJS", "Etc", "All"].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -64,13 +64,13 @@ const Work = () => {
                 className="app__work-hover app__flex"
               >
                 <a href={work.projectLink} target="_blank" rel="noreferrer">
-                  <motion.div whileInView={{ scale: [0, 1] }} whileHover={{ scale: [1, 0.9] }} transition={{ duration: 0.5 }} className="app__flex">
+                  <motion.div whileInView={{ scale: [0, 1] }} whileHover={{ scale: [1, 0.9] }} transition={{ duration: 0.2 }} className="app__flex">
                     <AiFillEye />
                   </motion.div>
                 </a>
 
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
-                  <motion.div whileInView={{ scale: [0, 1] }} whileHover={{ scale: [1, 0.9] }} transition={{ duration: 0.5 }} className="app__flex">
+                  <motion.div whileInView={{ scale: [0, 1] }} whileHover={{ scale: [1, 0.9] }} transition={{ duration: 0.2 }} className="app__flex">
                     <AiFillGithub />
                   </motion.div>
                 </a>
